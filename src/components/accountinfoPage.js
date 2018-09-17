@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './accountinfoPage.css';
 // component for the account info page
 export class accountinfoPage extends Component {
   render() {

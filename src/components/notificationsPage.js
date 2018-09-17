@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './notificationsPage.css';
 export class notificationsPage extends Component {
   render() {
     return (
