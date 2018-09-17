@@ -6,11 +6,11 @@ export class settingsPage extends Component {
     return (
       <div>
         <h1 className="SettingsPageTitle">Settings</h1>
-        <Link className="account-info-link" to="/accountinfoPage">Account Info</Link>
+        <Link className="account-info-link btn btn-primary" role="button" to="/accountinfoPage">Account Info</Link>
         <br></br>
-        <Link className="notifications-link" to="/notificationsPage">Notifications</Link>
+        <Link className="notifications-link btn btn-primary" role="button" to="/notificationsPage">Notifications</Link>
         <br></br>
-        <Link className="ach-info-link"to="/achinfoPage">ACH Info</Link>
+        <Link className="ach-info-link btn btn-primary" role="button" to="/achinfoPage">ACH Info</Link>
       </div>
     )
   }
