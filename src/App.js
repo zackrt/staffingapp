@@ -8,13 +8,14 @@ import loginPage from './components/loginPage';
 import notificationsPage from './components/notificationsPage';
 import employeePage from './components/employeePage';
 import achinfoPage from './components/achinfoPage';
+import accountinfoPage from './components/accountinfoPage';
 //component for the app with all routes to other components / pages
 export default function App(props) {
   return (
     <Router>
       <div className="app">
                 <header>
-                    <h1><Link to="/">AAA staffing app</Link></h1>
+                    <h1><Link to="/">AAA Apartment staffing app</Link></h1>
                     <h1><Link to="/loginPage">Login</Link></h1>
                 </header>
                 <main>
@@ -24,7 +25,8 @@ export default function App(props) {
                     <Route exact path="/notificationsPage" component={notificationsPage} />
                     <Route exact path="/employeePage" component={employeePage} />
                     <Route exact path="/achinfoPage" component={achinfoPage} />
-                </main>
+                    <Route exact path="/accountinfoPage" component={accountinfoPage} />
+                </main>         
             </div>
     </Router>
   );

@@ -7,7 +7,9 @@ export class settingsPage extends Component {
       <div>
         <h1 className="SettingsPageTitle">Settings</h1>
         <Link className="account-info-link" to="/accountinfoPage">Account Info</Link>
+        <br></br>
         <Link className="notifications-link" to="/notificationsPage">Notifications</Link>
+        <br></br>
         <Link className="ach-info-link"to="/achinfoPage">ACH Info</Link>
       </div>
     )
