@@ -6,7 +6,9 @@ import settingsPage from './components/settingsPage';
 import landingPage from './components/landingPage';
 import loginPage from './components/loginPage';
 import notificationsPage from './components/notificationsPage';
-//component for the app with routes to other components
+import employeePage from './components/employeePage';
+import achinfoPage from './components/achinfoPage';
+//component for the app with all routes to other components / pages
 export default function App(props) {
   return (
     <Router>
@@ -20,6 +22,9 @@ export default function App(props) {
                     <Route exact path="/settingsPage" component={settingsPage} />
                     <Route exact path="/loginPage" component={loginPage} />
                     <Route exact path="/notificationsPage" component={notificationsPage} />
+                    <Route exact path="/employeePage" component={employeePage} />
+                    <Route exact path="/achinfoPage" component={achinfoPage} />
+
                 </main>
             </div>
     </Router>
