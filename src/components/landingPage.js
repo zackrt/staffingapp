@@ -5,6 +5,7 @@ export class landingPage extends Component {
     return (
       <div>
         <h1>Welcome to the AAA Apartment staffing landing page!</h1>
+        <h1><Link to="/loginPage">Login</Link></h1>
         <img src="./aaaicon.png" alt="aaalogo"/>
       </div>
     )

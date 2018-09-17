@@ -16,7 +16,6 @@ export default function App(props) {
       <div className="app">
                 <header>
                     <h1><Link to="/">AAA Apartment staffing app</Link></h1>
-                    <h1><Link to="/loginPage">Login</Link></h1>
                 </header>
                 <main>
                     <Route exact path="/" component={landingPage} />
