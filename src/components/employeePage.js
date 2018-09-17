@@ -1,15 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 //component for employee page with 5 buttons
 export class employeePage extends Component {
   render() {
     return (
       <div>
-        <h1 className="employee-page-title">Employee</h1>
-        <button className="available-btn btn">Available</button>
-        <button className="not-available-btn btn">Not Available</button>
-        <button className="arrived-btn btn">Arrived</button>
-        <button className="departed-btn btn">Departed</button>
-        <button className="schedule-btn btn">Schedule</button>
+        <div class="btn-group-vertical">
+          <h1 className="employee-page-title">Employee</h1>
+          <Link className="available-btn btn btn-primary" to="/">Available</Link>
+          <Link className="not-available-btn btn btn-danger"to="/">Not Available</Link>
+          <Link className="arrived-btn btn btn-secondary"to="/">Arrived</Link>
+          <Link className="departed-btn btn btn-info"to="/">Departed</Link>
+          <Link className="schedule-btn btn btn-warning"to="/">Schedule</Link>
+        </div>
       </div>
     )
   }
