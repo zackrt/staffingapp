@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+// component for the account info page
 export class accountinfoPage extends Component {
   render() {
     return (
