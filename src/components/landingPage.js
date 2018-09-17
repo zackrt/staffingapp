@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 // Home Page or Landing Page component
 export class landingPage extends Component {
   render() {
