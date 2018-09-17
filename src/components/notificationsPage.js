@@ -5,6 +5,10 @@ export class notificationsPage extends Component {
     return (
       <div>
         <h1 className="notificationspage-title">Notifications</h1>
+        <label className="jobs-available-checkbox">When Jobs is Available
+          </label>
+        <label className="message-from-recruiters">Messages from Recruiters
+          </label>
       </div>
     )
   }
