@@ -7,7 +7,7 @@ export class loginPage extends Component {
     return (
       <div>
         <h1 className="login-page-title">Login</h1>
-        <Link to="/settingsPage">settings</Link>
+        <Link to="/settingsPage">Settings</Link>
         <EmailForm/>
       </div>
     )

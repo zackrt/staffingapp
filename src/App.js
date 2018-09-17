@@ -24,7 +24,6 @@ export default function App(props) {
                     <Route exact path="/notificationsPage" component={notificationsPage} />
                     <Route exact path="/employeePage" component={employeePage} />
                     <Route exact path="/achinfoPage" component={achinfoPage} />
-
                 </main>
             </div>
     </Router>
