@@ -1,24 +1,28 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+//import logo from './logo.svg';
 import './App.css';
-//component for the app 
-class App extends Component {
-  render() {
-    return ( 
-      <div className="App">
-         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to AAA Apartment Staffing App!</h1>
-        </header>
-        <p className="App-intro">
-          AAA Apartment Staffing react mobile app
-        </p>
-        <img src="./aaaicon.png" alt="aaa icon"></img>
-        <br></br>
-        <button className="Login-btn">Login</button>
-      </div> 
-    );
-  }
+import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import settingsPage from './components/settingsPage';
+import landingPage from './components/landingPage';
+import loginPage from './components/loginPage';
+import notificationsPage from './components/notificationsPage';
+//component for the app with routes to other components
+export default function App(props) {
+  return (
+    <Router>
+      <div className="app">
+                <header>
+                    <h1><Link to="/">AAA staffing app</Link></h1>
+                    <h1><Link to="/settingsPage">settings</Link></h1>
+                    <h1><Link to="/loginPage">Login</Link></h1>
+                </header>
+                <main>
+                    <Route exact path="/" component={landingPage} />
+                    <Route exact path="/settingsPage" component={settingsPage} />
+                    <Route exact path="/loginPage" component={loginPage} />
+                    <Route exact path="/notificationsPage" component={notificationsPage} />
+                </main>
+            </div>
+    </Router>
+  );
 }
-
-export default App;

@@ -12,5 +12,4 @@ export class settingsPage extends Component {
     )
   }
 }
-
 export default settingsPage
