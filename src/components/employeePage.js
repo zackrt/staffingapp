@@ -7,7 +7,7 @@ export class employeePage extends Component {
       <div>
         <div class="btn-group-vertical">
           <h1 className="employee-page-title">Employee</h1>
-          <Link className="available-btn btn btn-primary" to="/">Available</Link>
+          <Link className="available-btn btn btn-primary" to="/"role="button">Available</Link>
           <Link className="not-available-btn btn btn-danger"to="/">Not Available</Link>
           <Link className="arrived-btn btn btn-secondary"to="/">Arrived</Link>
           <Link className="departed-btn btn btn-info"to="/">Departed</Link>
