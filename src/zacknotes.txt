@@ -1,6 +1,15 @@
+todo:
+1. add navigation with react-router-dom
+2. add design and dimensions with colors
+3. add font family 
+4. add state to all inputs: Email, Password, Full Name, Bank routing #, Account #
+
+
 #68a7c5 light blue
 #ffcbb02 orangish
 #2e3664 darker blue
+
+font family Avenir . link: https://www.fonts.com/font/linotype/avenir-next?QueryFontType=Web&src=GoogleWebFonts
 
 import React from 'react';
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
