@@ -14,7 +14,9 @@ class App extends Component {
           AAA Apartment Staffing react mobile app
         </p>
         <img src="./aaaicon.png" alt="aaa icon"></img>
-      </div>    
+        <br></br>
+        <button className="Login-btn">Login</button>
+      </div> 
     );
   }
 }

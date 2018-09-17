@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 // component for the settings page
 export class settingsPage extends Component {
   render() {
