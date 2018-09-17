@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//component for employee page
+//component for employee page with 5 buttons
 export class employeePage extends Component {
   render() {
     return (

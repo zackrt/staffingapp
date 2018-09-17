@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+// component for ach banking info page
 export class achinfoPage extends Component {
   render() {
     return (

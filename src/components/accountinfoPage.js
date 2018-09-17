@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 // component for the account info page
 export class accountinfoPage extends Component {
   render() {
@@ -6,6 +6,7 @@ export class accountinfoPage extends Component {
       <div>
         <h1>Account Info </h1>
         <h2 className="fullname">Full Name</h2>
+        <input className="fullname-text-input" type="text"></input>
         <h3>Email</h3>
         <h3>Password</h3>
         <h4>Employee ID/Customer ID</h4>

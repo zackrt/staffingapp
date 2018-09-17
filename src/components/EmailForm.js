@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+// input box for email address with alert
 export class EmailForm extends Component {
   constructor(props) {
     super(props);

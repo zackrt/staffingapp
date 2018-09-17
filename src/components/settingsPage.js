@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// component for the settings page
+// component for the settings page with 3 links or buttons
 export class settingsPage extends Component {
   render() {
     return (

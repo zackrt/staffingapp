@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import EmailForm from './EmailForm.js';
+//component for log in page with settings button and email/password form & employee/customer dropdown
 export class loginPage extends Component {
   render() {
     return (
