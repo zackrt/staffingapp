@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to AAA Apartment Staffing App!</h1>
         </header>
         <p className="App-intro">
-          AAA Apartment Staffing react app
+          AAA Apartment Staffing react mobile app
         </p>
       </div>
     );
