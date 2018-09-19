@@ -5,11 +5,12 @@ export class landingPage extends Component {
   render() {
     return (
       <div>
-        <h1>Welcome to the AAA Apartment staffing landing page!</h1>
+        <h1>Loading</h1>
         <h1><Link className="btn btn-primary" role="button"to="/loginPage">Login</Link></h1>
-        <img src="./aaaicon.png" alt="aaalogo"/>
         <br></br>
-        <Link className="btn btn-primary" role="button"to="/employeePage">employees</Link>
+        <Link className="btn btn-primary" role="button"to="/employeePage">Employees</Link>
+        <br></br>
+        <Link className="btn btn-primary" role="button"to="/createaccount">Create Account</Link>
       </div>
     )
   }
