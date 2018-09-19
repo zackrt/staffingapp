@@ -27,7 +27,7 @@ export class createaccountPage extends Component {
           </div>
 
         <Link className="continue-btn btn btn-success" role="button" to="/employeePage">Continue</Link>
-        <Link className="back-btn btn btn-danger" role="button" to="/landingPage">Back</Link>
+        <Link className="back-btn btn btn-danger" role="button" to="/">Back</Link>
       </div>
     );
   }
