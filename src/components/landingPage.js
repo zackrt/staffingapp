@@ -10,7 +10,7 @@ export class landingPage extends Component {
         <br></br>
         <Link className="btn btn-primary" role="button"to="/employeePage">Employees</Link>
         <br></br>
-        <Link className="btn btn-primary" role="button"to="/createaccount">Create Account</Link>
+        <Link className="btn btn-primary" role="button"to="/createaccountPage">Create Account</Link>
       </div>
     )
   }
