@@ -12,6 +12,15 @@ export class loginPage extends Component {
         <Link className="settings-link btn btn-primary" role="button" to="/settingsPage">Settings</Link>
         <EmailForm/>
         <PasswordForm/>
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Select One
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <Link class="employee-dropdown-btn dropdown-item" to="./employeePage">Employee</Link>
+    <Link class="customer-dropdown-btn dropdown-item" to="/">Customer</Link>
+  </div>
+</div>
       </div>
     )
   }
