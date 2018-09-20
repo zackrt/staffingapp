@@ -1,8 +1,7 @@
-.loading-title {
+.landingpage-content {
     display: flex;
     justify-content: center;
 }
-
 @media only and screen (max-width: 600px) {
 
 }

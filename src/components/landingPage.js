@@ -5,14 +5,16 @@ import './landingPage.css';
 export class landingPage extends Component {
   render() {
     return (
-      <div>
+      <div className="landingpage-title">
         <h1 className="loading-title">Loading</h1>
-        <div class="landing-page-btn-group btn-group-vertical">
-        <Link className="login-link-btn btn btn-primary" role="button"to="/loginPage">Login</Link>
-        <br></br>
-        <Link className="employee-link-btn btn btn-primary" role="button"to="/employeePage">Employees</Link>
-        <br></br>
-        <Link className="create-link-btn btn btn-primary" role="button"to="/createaccountPage">Create Account</Link>
+        <div className="landingpage-content">
+          <div class="landing-page-btn-group btn-group-vertical">
+            <Link className="login-link-btn btn btn-primary" role="button"to="/loginPage">Login</Link>
+            <br></br>
+            <Link className="employee-link-btn btn btn-primary" role="button"to="/employeePage">Employees</Link>
+            <br></br>
+            <Link className="create-link-btn btn btn-primary" role="button"to="/createaccountPage">Create Account</Link>
+          </div>
         </div>
       </div>
     )
