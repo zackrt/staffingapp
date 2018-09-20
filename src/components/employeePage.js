@@ -5,7 +5,7 @@ import './employeePage.css'
 export class employeePage extends Component {
   render() {
     return (
-      <div>
+      <div className="employeePage-content">
         <div className="employee-page-btn-cln btn-group-vertical">
           <h1 className="employee-page-title">Employee</h1>
 
