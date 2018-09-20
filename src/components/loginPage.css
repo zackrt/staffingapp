@@ -1,0 +1,8 @@
+.login-form-content {
+    display: flex;
+    justify-content: center;
+}
+.settingslink-content {
+    display: flex;
+    justify-content: flex-end;
+}

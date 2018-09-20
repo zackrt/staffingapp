@@ -9,7 +9,10 @@ export class loginPage extends Component {
     return (
       <div>
         <h1 className="login-page-title">Login</h1>
-        <Link className="settings-link btn btn-primary" role="button" to="/settingsPage">Settings</Link>
+        <div className="settingslink-content">
+          <Link className="settings-link btn btn-primary" role="button" to="/settingsPage">Settings</Link>
+        </div>
+        <div className="login-form-content">
         <EmailForm/>
         <PasswordForm/>
         <div class="dropdown">
@@ -19,6 +22,7 @@ export class loginPage extends Component {
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <Link class="employee-dropdown-btn dropdown-item" to="./employeePage">Employee</Link>
     <Link class="customer-dropdown-btn dropdown-item" to="./customerPage">Customer</Link>
+  </div>
   </div>
 </div>
       </div>
