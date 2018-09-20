@@ -6,7 +6,7 @@ export class employeePage extends Component {
   render() {
     return (
       <div>
-        <div className="btn-group-vertical">
+        <div className="employee-page-btn-cln btn-group-vertical">
           <h1 className="employee-page-title">Employee</h1>
 
 <button type="button" className="available-btn btn btn-primary" data-toggle="modal" data-target="#availableModal">
@@ -88,21 +88,21 @@ export class employeePage extends Component {
   Departed
 </button>
 
-<div class="modal fade" id="departedModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal fade" id="departedModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog" role="document">
     <div className="modal-content">
       <div className="modal-header">
         <h5 className="modal-title" id="exampleModalLabel">Employee departure</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
+      <div className="modal-body">
         D, Employee ID# + Customer ID#, location (lat/long), date/time.
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Ok</button>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-primary">Ok</button>
       </div>
     </div>
   </div>
