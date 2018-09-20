@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import './employeePage.css'
 //component for employee page with 5 buttons
 export class employeePage extends Component {
   render() {
