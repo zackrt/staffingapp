@@ -10,6 +10,7 @@ import employeePage from './components/employeePage'
 import achinfoPage from './components/achinfoPage'
 import accountinfoPage from './components/accountinfoPage'
 import createaccountPage from './components/createaccountPage'
+import customerPage from './components/customerPage'
 //component for the app with all routes to other components / pages
 export default function App(props) {
   return (
@@ -28,6 +29,7 @@ export default function App(props) {
                     <Route exact path="/achinfoPage" component={achinfoPage} />
                     <Route exact path="/accountinfoPage" component={accountinfoPage} />
                     <Route exact path="/createaccountPage" component={createaccountPage}  />
+                    <Route exact path="/customerPage" component={customerPage} />
                 </main>         
             </div>
     </Router>

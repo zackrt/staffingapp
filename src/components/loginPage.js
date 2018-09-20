@@ -18,7 +18,7 @@ export class loginPage extends Component {
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <Link class="employee-dropdown-btn dropdown-item" to="./employeePage">Employee</Link>
-    <Link class="customer-dropdown-btn dropdown-item" to="/">Customer</Link>
+    <Link class="customer-dropdown-btn dropdown-item" to="./customerPage">Customer</Link>
   </div>
 </div>
       </div>
