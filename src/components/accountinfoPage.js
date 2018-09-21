@@ -4,7 +4,7 @@ import './accountinfoPage.css';
 export class accountinfoPage extends Component {
   render() {
     return (
-      <div>
+      <div className="accountinfopage_content">
         <h1>Account Info </h1>
         <h2 className="fullname">Full Name</h2>
         <input className="fullname-text-input" type="text"placeholder="James Bond"></input>
