@@ -8,7 +8,7 @@ export class landingPage extends Component {
       <div className="landingpage-title">
         <h1 className="loading-title">Loading</h1>
         <div className="landingpage-content">
-          <div class="landing-page-btn-group btn-group-vertical">
+          <div className="landing-page-btn-group btn-group-vertical">
             <Link className="login-link-btn btn btn-primary" role="button"to="/loginPage">Login</Link>
             <br></br>
             <Link className="employee-link-btn btn btn-primary" role="button"to="/employeePage">Employees</Link>
