@@ -1,6 +1,6 @@
 .login-form-content {
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin-top: 60px;
 }
 .settingslink-content {
     float: right;
