@@ -60,7 +60,7 @@ export class employeePage extends Component {
 </div>
 
 <button type="button" className="arrived-btn btn btn-warning" data-toggle="modal" data-target="#arrivedModal">
-  Arrived
+  Check-In
 </button>
 
 
@@ -85,7 +85,7 @@ export class employeePage extends Component {
 </div>
           
 <button type="button" className="btn btn-dark" data-toggle="modal" data-target="#departedModal">
-  Departed
+  Check-Out
 </button>
 
 <div className="modal fade" id="departedModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

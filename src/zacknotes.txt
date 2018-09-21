@@ -1,12 +1,16 @@
 todo:
 V 1. add navigation with react-router-dom
 2. add design and dimensions with their colors
-3. add font-family avenir
+V 3. add font-family avenir
 V 4. add bootstrap4
 5. add state to all inputs: Email, Password, Full Name, Bank routing #, Account #
 V 6. add button functionality to employee page (modals)
 V 7. add customer page
-8. add forgot password
+8. add forgot password link/button to loginPage with new password input in modal
+9. move number inputs to center in ACH info page
+10. resize buttons in settingsPage
+11. adjust colors of buttons for higher contrast
+
 
 #68a7c5 light blue
 #ffcbb02 orangish
