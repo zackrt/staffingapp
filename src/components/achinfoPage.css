@@ -1,3 +1,11 @@
-h1, h2 {
+h1, h2, .achinfo_content {
     text-align: center;
+}
+input {
+    margin: auto;
+    margin-bottom: 10px;
+}
+.achinfo-save-btn {
+    float: right;
+    margin-right: 20%;
 }

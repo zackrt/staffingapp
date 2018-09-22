@@ -1,3 +1,7 @@
 .accountinfopage_content {
     text-align: center;
 }
+input {
+    margin: auto;
+    margin-bottom: 10px;
+}
