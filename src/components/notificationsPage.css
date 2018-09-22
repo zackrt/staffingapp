@@ -1,0 +1,10 @@
+.notificationspage-content {
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 80%;
+}

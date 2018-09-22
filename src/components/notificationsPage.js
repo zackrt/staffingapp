@@ -5,7 +5,7 @@ export class notificationsPage extends Component {
     return (
       <div>
         <h1 className="notificationspage-title">Notifications</h1>
-        <div className="input-group mb-3">
+        <div className="notificationspage-content input-group mb-3">
           <div className="input-group-prepend">
           <div className="input-group-text">
           <input type="checkbox" aria-label="Checkbox for following text input" />
