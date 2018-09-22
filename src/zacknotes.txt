@@ -12,7 +12,7 @@ V 9. move number inputs to center in ACH info page
 11. adjust colors of buttons for higher contrast
 V 12. add editability to email and password in account info page
 13. add padding to create account, reduce size of inputs
-
+V 14. centered inputs in achinfopage and added save button
 
 
 #68a7c5 light blue

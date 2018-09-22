@@ -3,18 +3,22 @@ import React, { Component } from 'react'
 export class EmailForm extends Component {
   constructor(props) {
     super(props);
-    this.state = {value: ''};
+    this.state = {email: '', password:''};
 
-    this.handleChange = this.handleChange.bind(this);
+    this.handleEmailChange = this.handleEmailChange.bind(this);
+    this.handlePasswordChange = this.handlePasswordChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(event) {
-    this.setState({value: event.target.value});
+  handleEmailChange(event) {
+    this.setState({email: event.target.email});
   }
-
+  handlePasswordChange(event) {
+    this.setState({password: event.target.password});
+  }
   handleSubmit(event) {
-    alert('an email address was submitted: ' + this.state.value);
+    alert('an email address was submitted: ' + this.state.email);
+    alert('a password was submitted: ' + this.state.password);
     event.preventDefault();
   }
   render() {
@@ -22,7 +26,11 @@ export class EmailForm extends Component {
       <form onSubmit={this.handleSubmit}>
         <label>
           Email:
-          <input type="text" value={this.state.value} onChange={this.handleChange} />
+          <input type="text" value={this.state.email} onChange={this.handleEmailChange} readOnly/>
+        </label>
+        <label>
+          Password:
+          <input type="password" value={this.state.password} onChange={this.handlePasswordChange} readOnly/>
         </label>
         <input type="submit" value="Submit" />
       </form>

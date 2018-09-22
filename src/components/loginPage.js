@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import EmailForm from './EmailForm.js';
-import PasswordForm from './PasswordForm.js';
+//import PasswordForm from './PasswordForm.js';
 import { Link } from 'react-router-dom';
 import './loginPage.css';
 //component for log in page with settings button and email/password form & employee/customer dropdown
 export class loginPage extends Component {
+  
   render() {
     return (
       <div>
@@ -14,20 +15,19 @@ export class loginPage extends Component {
         </div>
         <div className="login-form-content">
         <EmailForm/>
-        <PasswordForm/>
-        <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div className="dropdown">
+  <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Select One
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <Link class="employee-dropdown-btn dropdown-item" to="./employeePage">Employee</Link>
-    <Link class="customer-dropdown-btn dropdown-item" to="./customerPage">Customer</Link> 
+  <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <Link className="employee-dropdown-btn dropdown-item" to="./employeePage">Employee</Link>
+    <Link className="customer-dropdown-btn dropdown-item" to="./customerPage">Customer</Link> 
   </div>
   <button type="button" className="forgotpassword-btn btn btn-primary" data-toggle="modal" data-target="#forgotpasswordModal">
   Forgot Password?
   </button>
 
-<div className="modal fade" id="forgotpasswordModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div className="modal fade" id="forgotpasswordModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog" role="document">
     <div className="modal-content">
       <div className="modal-header">

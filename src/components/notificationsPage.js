@@ -5,23 +5,23 @@ export class notificationsPage extends Component {
     return (
       <div>
         <h1 className="notificationspage-title">Notifications</h1>
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-          <div class="input-group-text">
+        <div className="input-group mb-3">
+          <div className="input-group-prepend">
+          <div className="input-group-text">
           <input type="checkbox" aria-label="Checkbox for following text input" />
         </div>
       </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="When Jobs are Available"/>
+          <input type="text" className="form-control" aria-label="Text input with checkbox" placeholder="When Jobs are Available" readOnly/>
       </div>
           <br>
           </br>
-          <div class="input-group mb-3">
-          <div class="input-group-prepend">
-          <div class="input-group-text">
+          <div className="input-group mb-3">
+          <div className="input-group-prepend">
+          <div className="input-group-text">
           <input type="checkbox" aria-label="Checkbox for following text input" />
         </div>
       </div>
-          <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Messages from Recruiters"/>
+          <input type="text" className="form-control" aria-label="Text input with checkbox" placeholder="Messages from Recruiters" readOnly/>
       </div>
       </div>
     )
