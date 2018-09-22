@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import './createaccountPage.css'
 export class createaccountPage extends Component {
   render() {
     return (

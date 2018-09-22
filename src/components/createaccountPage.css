@@ -1,4 +1,7 @@
 .create-account-content {
-    margin-left: 16px; 
-    width: 80%;
+    margin: auto;
+    width: 85%;
+}
+.back-btn {
+    margin-left: 8px;
 }

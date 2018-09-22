@@ -8,12 +8,12 @@ V 6. add button functionality to employee page (modals)
 V 7. add customer page
 V 8. add forgot password link/button to loginPage with new password input in modal
 V 9. move number inputs to center in ACH info page
-10. resize buttons in settingsPage
+V 10. resize buttons in settingsPage
 11. adjust colors of buttons for higher contrast
 V 12. add editability to email and password in account info page
-13. add padding to create account, reduce size of inputs
+V 13. add padding to create account, reduce size of inputs
 V 14. centered inputs in achinfopage and added save button
-
+V 15. adjust width of notifications width
 
 #68a7c5 light blue
 #ffcbb02 orangish
