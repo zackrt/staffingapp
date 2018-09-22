@@ -21,8 +21,34 @@ export class loginPage extends Component {
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <Link class="employee-dropdown-btn dropdown-item" to="./employeePage">Employee</Link>
-    <Link class="customer-dropdown-btn dropdown-item" to="./customerPage">Customer</Link>
+    <Link class="customer-dropdown-btn dropdown-item" to="./customerPage">Customer</Link> 
   </div>
+  <button type="button" className="forgotpassword-btn btn btn-primary" data-toggle="modal" data-target="#forgotpasswordModal">
+  Forgot Password?
+  </button>
+
+<div className="modal fade" id="forgotpasswordModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div className="modal-dialog" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="forgotpasswordModalLabel">Reset Password</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div className="modal-body">
+        New Password <input placeholder="new password"/>
+        <br></br>
+        <br></br>
+        Re-type New Password <input placeholder="re-type new password"/>
+      </div>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" className="btn btn-primary">Ok</button>
+      </div>
+    </div>
+  </div>
+</div>
   </div>
 </div>
       </div>

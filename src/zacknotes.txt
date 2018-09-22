@@ -1,6 +1,6 @@
 todo:
 V 1. add navigation with react-router-dom
-2. add design and dimensions with their colors
+V 2. add design and dimensions with their colors
 V 3. add font-family avenir
 V 4. add bootstrap4
 5. add state to all inputs: Email, Password, Full Name, Bank routing #, Account #
@@ -10,6 +10,9 @@ V 7. add customer page
 9. move number inputs to center in ACH info page
 10. resize buttons in settingsPage
 11. adjust colors of buttons for higher contrast
+12. add editability to email and password in account info page
+13. add padding to create account, reduce size of inputs
+
 
 
 #68a7c5 light blue
