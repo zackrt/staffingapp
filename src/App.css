@@ -24,6 +24,15 @@
   font-size: large;
   color:#2e3644;
 }
+/* top of app with flexbox*/
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: white !important;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
