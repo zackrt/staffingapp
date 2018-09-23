@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import './notificationsPage.css';
+import React, { Component } from 'react'
+import './notificationsPage.css'
+import { Link } from 'react-router-dom'
 export class notificationsPage extends Component {
   render() {
     return (
@@ -24,6 +25,7 @@ export class notificationsPage extends Component {
             </div>
               <input type="text" className="form-control" aria-label="Text input with checkbox" placeholder="Messages from Recruiters" readOnly/>
           </div>
+          <Link className="go-back-link btn btn-danger" role="button" to="/settingsPage">Go Back</Link>
           </div>
       </div>
     )

@@ -18,7 +18,7 @@ export default function App(props) {
       <div className="app">
                 <header>
                     <Link to="/"><img src="./aaaapplogo2.png" alt="aaalogodark"/></Link>
-                    <img src="./aaaapplogo2.png" alt="aaalogodark"/>
+
                 </header>
                 <main>
                     <Route exact path="/" component={landingPage} />
