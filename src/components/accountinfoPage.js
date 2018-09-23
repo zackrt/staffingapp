@@ -1,5 +1,6 @@
-import React, { Component } from 'react';
-import './accountinfoPage.css';
+import React, { Component } from 'react'
+import './accountinfoPage.css'
+import { Link } from 'react-router-dom'
 // component for the account info page
 export class accountinfoPage extends Component {
   render() {
@@ -15,6 +16,7 @@ export class accountinfoPage extends Component {
         <h4>Employee ID/Customer ID</h4>
         <h4>Type: Employee/Customer</h4>
         <button className="accountinfo-save-btn btn btn-success">Save</button>
+        <Link className="go-back-link btn btn-danger" role="button" to="/settingsPage">Go Back</Link>
       </div>
     )
   }

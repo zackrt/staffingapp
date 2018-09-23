@@ -1,8 +1,15 @@
 .login-form-content {
+    margin-left: 16px;
     display: block;
     margin-top: 60px;
 }
 .settingslink-content {
     float: right;
     display: block;
+}
+.forgotpassword-btn {
+    margin-left: 16px;
+}
+.settings-link {
+    margin-right: 8px;
 }

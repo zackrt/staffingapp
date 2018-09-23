@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './achinfoPage.css'
+import { Link } from 'react-router-dom'
 // component for ach banking info page
 export class achinfoPage extends Component {
   render() {
@@ -12,6 +13,7 @@ export class achinfoPage extends Component {
         <input type="number"className="bankaccount_input" placeholder="543210123" readOnly/>
         <br></br>
         <button className="achinfo-save-btn btn btn-success">Save</button>
+        <Link className="go-back-link btn btn-danger" role="button" to="/settingsPage">Go Back</Link>
       </div>
     )
   }
