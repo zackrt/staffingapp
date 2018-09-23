@@ -37,10 +37,10 @@ export class loginPage extends Component {
         </button>
       </div>
       <div className="modal-body">
-        New Password <input placeholder="new password"/>
+        New Password <input type="password" placeholder="new password"/>
         <br></br>
         <br></br>
-        Re-type New Password <input placeholder="re-type new password"/>
+        Re-type New Password <input type="password" placeholder="re-type new password"/>
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
