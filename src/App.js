@@ -17,7 +17,7 @@ export default function App(props) {
     <Router>
       <div className="app">
                 <header>
-                    <h1><Link to="/">AAA Apartment staffing app</Link></h1>
+                    <Link to="/"><img src="./aaaapplogo2.png" alt="aaalogodark"/></Link>
                     <img src="./aaaapplogo2.png" alt="aaalogodark"/>
                 </header>
                 <main>
