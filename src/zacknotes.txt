@@ -41,3 +41,8 @@ export default function App(props) {
         </Router>
     );
 }
+***to auto login after create/registration
+registration and login functionality combined 
+instead of sending a success, send the jwt
+
+post both to api

@@ -11,10 +11,11 @@ export class EmailForm extends Component {
   }
 
   handleEmailChange(event) {
-    this.setState({email: event.target.email});
+    console.log({email: event.target.value});
+    this.setState({email: event.target.value});
   }
   handlePasswordChange(event) {
-    this.setState({password: event.target.password});
+    this.setState({password: event.target.value});
   }
   handleSubmit(event) {
     alert('an email address was submitted: ' + this.state.email);
@@ -26,11 +27,11 @@ export class EmailForm extends Component {
       <form onSubmit={this.handleSubmit}>
         <label>
           Email:
-          <input type="text" value={this.state.email} onChange={this.handleEmailChange} readOnly/>
+          <input type="text" value={this.state.email} onChange={this.handleEmailChange} />
         </label>
         <label>
           Password:
-          <input type="password" value={this.state.password} onChange={this.handlePasswordChange} readOnly/>
+          <input type="password" value={this.state.password} onChange={this.handlePasswordChange} />
         </label>
         <input type="submit" value="Submit" />
       </form>
