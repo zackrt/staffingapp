@@ -1,0 +1,15 @@
+.email-label {
+    display: block;
+}
+.password-label {
+    display: block;
+}
+label {
+    display: block;
+    margin-left: 20%;
+}
+.submit-login-btn {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}

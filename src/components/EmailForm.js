@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './EmailForm.css'
 // input box for email address with alert
 export class EmailForm extends Component {
   constructor(props) {
@@ -26,14 +27,14 @@ export class EmailForm extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          Email:
+          <span className="email-label">Email:</span>
           <input type="text" value={this.state.email} onChange={this.handleEmailChange} />
         </label>
         <label>
-          Password:
+        <span className="password-label">Password:</span>
           <input type="password" value={this.state.password} onChange={this.handlePasswordChange} />
         </label>
-        <input type="submit" value="Submit" />
+        <input className="submit-login-btn btn btn-success"type="submit" value="Submit" />
       </form>
     );
   }
